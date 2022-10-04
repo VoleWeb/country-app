@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.flag-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  -webkit-user-drag: none;
+  border-radius: 2px;
+}
